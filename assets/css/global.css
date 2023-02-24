@@ -1,0 +1,81 @@
+
+.normal {
+  background-color:#d8dcbd ;
+}
+.grass {
+  background-color: #77c850;
+}
+.fire {
+  background-color: #ef7824 ;
+}
+.water {
+  background-color: #678fee;
+} 
+.electric { 
+  background-color: #f7cf2e;
+}
+.ice {
+  background-color: #98d5d7;
+}
+.ground {
+  background-color: #725847;
+}
+.flying {
+  background-color: #a98ff0;
+}
+.poison {
+  background-color: #a040a0;
+}
+.fighting {
+  background-color: #bf3029;
+}
+.psychic {
+  background-color: #ed7c9e;
+}
+.dark {
+  background-color: #353331;
+}
+.rock {
+  background-color: grey;
+}
+.bug {
+  background-color: #a8b720;
+}
+.ghost {
+  background-color: #6e5896;
+}
+.steel {
+  background-color: #c4c2d1;
+  
+}
+.dragon {
+  background-color: #a78ceb;
+}
+.fairy {
+  background-color: #f9aec7;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;  
+  box-sizing: border-box;
+}
+body {
+  background-color: #F6F8FC;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-image: url("/assets/img/fundo\ cinza.jpg");
+  background-repeat:unset;
+}
+@media screen and (min-width: 992px) {
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
