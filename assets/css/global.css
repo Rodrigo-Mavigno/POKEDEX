@@ -67,8 +67,13 @@ body {
   width: 100vw;
   height: 100vh;
   padding: 1rem;
-  background-image: url("/assets/img/fundo\ cinza.jpg");
-  background-repeat:unset;
+  background-color: gainsboro;
+}
+.logo {
+  width: 220px;
+  height: 75px;
+  padding: .5rem;
+  margin-left: 20px;
 }
 @media screen and (min-width: 992px) {
     .content{
